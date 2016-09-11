@@ -272,4 +272,12 @@ df %>% withColumn("sliding_mean", over(avg(df$value), w))
 
 - in SparkR < 2.0.0 window functions are supported only in raw SQL by calling `sql` method on registered table.
 
+## DataFrame Schema Nullablility
 
+### Marking StructFields as Nullable
+
+### Nullable Is not a Constraint
+
+### Nullable Is Used to Optimize Query Plan
+
+### Schema Inference by Reflection
